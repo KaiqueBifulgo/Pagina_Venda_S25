@@ -56,8 +56,9 @@ header nav {
 }
 
 #nav-bottom button {
-    background-color: #4ab0f0;
+    background-color: #0071e3;
     border-radius: 15px;
+    padding: 0.4 1;
     height: 30px;
     width: 150px;
     border: none;
@@ -78,4 +79,23 @@ header nav {
 /* CONTEUDO PRINCIPAL */
 body {
     background-color: #050505;
+    color: #e9eff5;
+}
+
+#main-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+#subtitle {
+    margin: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
 }
