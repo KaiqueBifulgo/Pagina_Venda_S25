@@ -33,8 +33,9 @@ header nav {
 }
 
 #nav-search input {
-    border-radius: 10px;
-    height: 25px;
+    border-radius: 20px;
+    height: 35px;
+    width: 200px;
     text-align: center;
     border: none;
     font-weight: bold;
@@ -57,20 +58,22 @@ header nav {
 
 #nav-bottom button {
     background-color: #0071e3;
-    border-radius: 15px;
-    padding: 0.4 1;
-    height: 30px;
+    border-radius: 20px;
+    padding: 0.4 1rem;
+    height: 40px;
     width: 150px;
+    font-size: 1rem;
     border: none;
     color: #fde6e6;
     font-weight: bold;
     cursor: pointer;
 }
 
-#nav-bottom-links a {
-    font-weight: bold;
+#nav-bottom h2 {
+    font-size: 1.8rem;
     color: #050505;
 }
+
     
 
 
@@ -174,7 +177,7 @@ body {
 }
 
 .selected {
-    outline: 2px solid #50ed34;
+    outline: 5px solid #ff0000;
 }
 
 
@@ -195,8 +198,14 @@ body {
         display: none;
     }
 
+    #nav-bottom h2 {
+        font-size: 1.2rem;
+        margin: 1rem auto;
+    }
+
     #nav-bottom .btn {
         display: flex;
+        margin: 1rem auto;
     }
 
     #main-content {

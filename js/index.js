@@ -17,7 +17,14 @@ buttons.forEach((button) => {
 
 
        images.classList.add("changing")
-       images.setAttribute("src", `imgs/${id}.png`)
+
+
+       const mobile = window.innerWidth <= 480;
+       
+       const desktopMobile = mobile ? `imgs/${id}_Mobile.jpeg` : `imgs/${id}.jpeg`
+
+       images.setAttribute("src", desktopMobile)
+
 
 
        setTimeout(() => {
