@@ -172,3 +172,39 @@ body {
     border: 2.5px solid #faf4f4;
     background-color: #d3d3d3;
 }
+
+.selected {
+    outline: 2px solid #50ed34;
+}
+
+
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+    #navbar li{
+        display: none;
+    }
+
+    #navbar #logo {
+        display: flex;
+    }
+
+    #nav-bottom li {
+        display: none;
+    }
+
+    #nav-bottom .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #subtitle {
+        font-size: 2rem;
+    }
+}
