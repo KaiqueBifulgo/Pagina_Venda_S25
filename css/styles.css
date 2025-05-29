@@ -115,6 +115,11 @@ body {
     font-size: 1.1rem;
 }
 
+#imagens img {
+    width: 450px;
+    height: 450px;
+}
+
 #product-image {
     max-width: 600px;
     margin: 3rem auto;
@@ -215,5 +220,10 @@ body {
 
     #subtitle {
         font-size: 2rem;
+    }
+
+    #imagens img {
+        width: 250px;
+        height: 300px;
     }
 }
